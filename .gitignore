@@ -1,38 +1,57 @@
+# Ignore all target directories except for source-specific ones
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# Ignore all build directories except for source-specific ones
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
 
-### Mac OS ###
+# Mac OS
 .DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Maven-specific directories
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore JAR, WAR, and EAR files
+*.jar
+*.war
+*.ear
+
+# General exclusions
+*.class
+*.swp
+*.swo
+*.bak

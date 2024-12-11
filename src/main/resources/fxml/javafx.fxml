@@ -5,7 +5,7 @@
 <?import javafx.scene.chart.PieChart?>
 
 <?import java.net.URL?>
-<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI">
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiru.smartexpensetracker.FinanceTrackerGUI">
     <top>
         <MenuBar/>
     </top>
@@ -20,6 +20,6 @@
     </center>
 
     <stylesheets>
-        <URL value="@styles.css" />
+        <URL value="@../css/styles.css" />
     </stylesheets>
 </BorderPane>

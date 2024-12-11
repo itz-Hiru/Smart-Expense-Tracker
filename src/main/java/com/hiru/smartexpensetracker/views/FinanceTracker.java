@@ -1,5 +1,6 @@
-package com.hiru.expense.tracker.smartexpensetracker;
+package com.hiru.smartexpensetracker.views;
 
+import com.hiru.smartexpensetracker.models.Transaction;
 import javafx.beans.property.SimpleObjectProperty;
 
 import java.io.*;

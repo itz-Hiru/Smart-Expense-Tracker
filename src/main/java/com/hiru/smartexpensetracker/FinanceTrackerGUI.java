@@ -1,5 +1,8 @@
-package com.hiru.expense.tracker.smartexpensetracker;
+package com.hiru.smartexpensetracker;
 
+import com.hiru.smartexpensetracker.controllers.MySQLFinanceRequest;
+import com.hiru.smartexpensetracker.models.Transaction;
+import com.hiru.smartexpensetracker.views.FinanceTracker;
 import javafx.animation.FadeTransition;
 import javafx.application.Application;
 import javafx.beans.property.SimpleObjectProperty;
@@ -47,13 +50,13 @@ public class FinanceTrackerGUI extends Application {
     @FXML
     private final PieChart pieChart = createPieChart();
 
-    private final File dataFile = new File("src/main/java/FinanceTracker/data.txt");
+    private final File dataFile = new File("src/main/java/com/hiru/smartexpensetracker/utils/data.txt");
 
     private static final Logger logger = Logger.getLogger("FinanceTrackerLog");
 
     static {
         try {
-            FileHandler fh = new FileHandler("finance_tracker_log.log");
+            FileHandler fh = new FileHandler("src/main/java/com/hiru/smartexpensetracker/utils/finance_tracker_log.log");
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
@@ -92,7 +95,7 @@ public class FinanceTrackerGUI extends Application {
                 showWarningDialog();
             }
 
-            File cssFile = new File("src/main/java/FinanceTracker/styles.css");
+            File cssFile = new File("src/main/resources/css/styles.css");
             String cssPath = cssFile.toURI().toURL().toExternalForm();
             borderPane.getStylesheets().add(cssPath);
         } catch (Exception e) {

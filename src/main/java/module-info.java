@@ -12,6 +12,12 @@ module com.hiru.expense.tracker.smartexpensetracker {
     requires com.almasb.fxgl.all;
     requires java.sql;
 
-    opens com.hiru.expense.tracker.smartexpensetracker to javafx.fxml;
-    exports com.hiru.expense.tracker.smartexpensetracker;
+    opens com.hiru.smartexpensetracker to javafx.fxml;
+    exports com.hiru.smartexpensetracker;
+    exports com.hiru.smartexpensetracker.models;
+    opens com.hiru.smartexpensetracker.models to javafx.fxml;
+    exports com.hiru.smartexpensetracker.controllers;
+    opens com.hiru.smartexpensetracker.controllers to javafx.fxml;
+    exports com.hiru.smartexpensetracker.views;
+    opens com.hiru.smartexpensetracker.views to javafx.fxml;
 }

@@ -1,4 +1,4 @@
-package com.hiru.expense.tracker.smartexpensetracker;
+package com.hiru.smartexpensetracker.controllers;
 
 import java.sql.*;
 
