@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.PieChart?>
+
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI">
+    <top>
+        <MenuBar/>
+    </top>
+
+    <center>
+        <VBox spacing="10">
+            <TableView fx:id="transactionTable">
+            </TableView>
+
+            <PieChart fx:id="pieChart"/>
+        </VBox>
+    </center>
+
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+</BorderPane>

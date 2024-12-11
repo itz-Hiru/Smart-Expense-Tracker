@@ -1,0 +1,44 @@
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createPieChart
+INFO: Creating Pie Chart...
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI updatePieChartData
+INFO: Updating Pie Chart data...
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI updatePieChartData
+INFO: Total Income: 0.0
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI updatePieChartData
+INFO: Total Expense: 0.0
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI updatePieChartData
+INFO: Income Percentage: NaN%
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI updatePieChartData
+INFO: Expense Percentage: NaN%
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createPieChart
+INFO: Pie Chart created successfully.
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI start
+INFO: FinanceTrackerGUI application started successfully.
+Dec 11, 2024 3:54:46 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI start
+WARNING: Data file is empty or does not exist. Starting the application without data.
+Dec 11, 2024 3:54:48 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showWarningDialog
+WARNING: Warning dialog displayed: Data file is empty or does not exist.
+Dec 11, 2024 3:54:48 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createMenuBar
+INFO: Creating Menu Bar...
+Dec 11, 2024 3:54:48 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createMenuBar
+INFO: Menu Bar created successfully.
+Dec 11, 2024 3:54:48 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createTransactionTable
+INFO: Creating Transaction Table...
+Dec 11, 2024 3:54:48 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI createTransactionTable
+INFO: Transaction Table created successfully.
+Dec 11, 2024 3:54:49 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showWarningDialog
+WARNING: Warning dialog displayed: Data file is empty or does not exist.
+Dec 11, 2024 3:54:50 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI lambda$createTransactionTable$21
+INFO: Transaction table width changed. Setting column visibility...
+Dec 11, 2024 3:54:56 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI lambda$createMenuBar$14
+INFO: User clicked About App menu item.
+Dec 11, 2024 3:54:56 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showAboutAppDialog
+INFO: Showing 'About App' dialog.
+Dec 11, 2024 3:54:59 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI lambda$createMenuBar$13
+INFO: User clicked Show Financial Tips menu item.
+Dec 11, 2024 3:54:59 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showFinanceTipDialog
+INFO: Attempting to retrieve a finance tip.
+Dec 11, 2024 3:54:59 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showFinanceTipDialog
+INFO: Finance tip successfully retrieved.
+Dec 11, 2024 3:54:59 PM com.hiru.expense.tracker.smartexpensetracker.FinanceTrackerGUI showAlert
+INFO: Showing alert: Financial Tip - Error getting finance quote from the database.
